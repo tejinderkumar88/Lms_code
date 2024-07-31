@@ -1,0 +1,42 @@
+# Node modules directory should be excluded to prevent copying unnecessary files
+node_modules
+
+# Docker ignore file itself
+.dockerignore
+
+# Dockerfile to avoid it being copied into the image
+Dockerfile
+
+# Environment files containing sensitive data
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.docker
+
+# Log files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Next.js build output
+.next
+out
+
+# Ignore local development environment files
+.vscode
+.idea
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build files
+dist
+coverage
+*.log
+
+# Ignore Git repository files
+.git
+.gitignore
